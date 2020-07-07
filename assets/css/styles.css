@@ -28,6 +28,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--main-font-size); /* em correspond à l'unité de référence définie dans le navigateur : 16px */
     color: var(--main-color);
+    
 }
 
 /**
@@ -214,4 +215,8 @@ span[class^="icon-"] {
 
 main article p span {
     color: var(--warning);
+}
+
+footer ul li ul li a{
+    color: white;
 }
