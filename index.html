@@ -16,6 +16,7 @@
     <link href="./assets/css/layout.css" rel="stylesheet"
     <!-- Load icomoon styles -->
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/forms.css" rel="stylesheet">
 
 </head>
 
@@ -146,16 +147,18 @@
             </div>
 
             <div>
+                <span class="required">
                 <input type="email" name="email_ctrl" id="email-ctrl" placeholder="Votre email (*)..." required>
+                </span>
             </div>
 
             <div>
-                <label>Objet de votre demande :</label>
+                <label class="required">Objet de votre demande :</label>
                 <textarea name="object-ctrl" id="object-ctrl"></textarea>
             </div>
 
             <div>
-                <button id="send-btn">Envoyer</button>
+                <button class="button" id="send-btn">Envoyer</button>
             </div>
         </form>
     <!--</template>-->

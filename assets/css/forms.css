@@ -1,0 +1,30 @@
+/** 
+* Form and field design
+**/
+.required::after { /** pseudo element = ::pseudo **/
+    content: "(*)";
+    color: red;
+}
+input.required {
+    color: red;
+}
+/**
+*input design
+**/
+input {
+    border-radius: 0.3em;
+    padding: .5em;
+    border: solid 1px rgb(128, 128, 128);
+}
+button {
+    background-color: var(--success);
+    color: white;
+    border-radius: 0.3em;
+    border: none;
+    height: 3em;
+    padding: 0.5em;
+    transition: background-color .3s 0s ease-out;
+}
+.button:hover { /** Etat final c'est ici **/
+    background-color:rgb(4, 129, 4);
+}

@@ -60,7 +60,7 @@ nav {
         display: block;
     }
 }
-button {
+nav button  {
     width: 5em;
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
